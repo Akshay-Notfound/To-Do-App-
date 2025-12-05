@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "456210716608",
+    "project_id": "to-do-app-e2b1d",
+    "storage_bucket": "to-do-app-e2b1d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456210716608:android:5e7d896333dce17da11a25",
+        "android_client_info": {
+          "package_name": "com.studyhub.to_do_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuxLtfS6nSk7_FM3D-446SCRYbj6BlR3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
