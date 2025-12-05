@@ -7,6 +7,7 @@ import '../providers/task_provider.dart';
 import '../providers/subject_mastery_provider.dart';
 import '../tasks/add_task_screen.dart';
 import '../chat/study_buddy_screen.dart';
+import '../focus/pomodoro_timer_screen.dart';
 import '../widgets/ai_widgets.dart';
 import '../../core/services/smart_scheduling_service.dart';
 
@@ -38,6 +39,15 @@ class HomeScreen extends ConsumerWidget {
         title: const Text('ToDo+'),
         centerTitle: false,
         actions: [
+          IconButton(
+            icon: const Icon(Icons.timer),
+            tooltip: 'Pomodoro Timer',
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const PomodoroTimerScreen()),
+              );
+            },
+          ),
           if (tasks.isNotEmpty)
             IconButton(
               icon: const Icon(Icons.auto_fix_high),
